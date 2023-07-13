@@ -3,26 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
+    <title> Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <div class="container">
-    <div class="sidebar">
-        Rakshitha S
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>My intro</li>
-                <li>Services</li>
-                <li>CV</li>
-                <li>Blog</li>
-                <li>Gallery</li>
-            </ul>
-        </nav>
-    </div>
-    <div class="main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis harum at voluptatem maiores distinctio placeat, officia beatae, ex vel ipsum corporis. Veritatis asperiores nulla dolorem! Tenetur esse doloribus commodi cumque?</div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home">
+        <div class="main">
+            <h1 class="myname">I am <span>Rakshitha S </span><br></h1>
+            <h4>This is my official Portfolio website to show all the details and work experience.</h4>
+            <button class="btn">
+                DOWNLOAD RESUME
+            </button>
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+
+            <img src="img1.jpg" alt="">
+            <div id="intro">
+                <h2><u>RAKSHITHA S</u></h2>
+                <p>I am Rakshitha S from Bangalore currently pursuing my Bachelor's in Computer Applications at Kristu
+                    Jayanti College.I have completed my PUC at Vision PU College and my schooling at Eben-Ezer Public
+                    School.
+                    Moving on towards my hobbies,my hobbies are sketching,cooking,dancing and gardening.Im basically
+                    interested in UI/UX design and looking forward to proceed my carreer in designing field.</p><br>
+                <p>A BCA student looking to working in a growth-oriented
+                    organization which offers me challenging opportunities to
+                    enhance my profession and technical knowledge.
+                    Exhibited good record of academic performance,
+                    effective communication and inter-personal skills.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h1 class="headings">EDUCATION</h1>
+
+        <center> <img src="education-video-removebg-preview.png"></center>
+
+        <div class="education-details-container">
+            <div class="image-column">
+                <img src="img8.png" alt="school" class="education" style="width:150px">
+            </div>
+            <div class="details-column">
+                <p><span>
+                        <h2><u>Kristu Jayanti College</u></h2>
+                    </span></p>
+                <p>Currently pursuing BCA(Bachelor’s in Computer Application) at Kristu Jayanti College,Autonomous.</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="education-details-container">
+            <div class="image-column">
+                <img src="https://targetstudy.com/files/img/2/43980/L_13645.gif" alt="school" class="education"
+                    style="width:150px">
+            </div>
+            <div class="details-column">
+                <p><span>
+                        <h2><u>Vision PU College</u></h2>
+                    </span></p>
+                <p>Pre University(PU),2020 from Vision Pu College with
+                    97 percentage.</p><br>
+            </div>
+        </div>
+
+        <div class="education-details-container">
+            <div class="image-column">
+                <img src="img9.jpg" alt="school" class="education" style="width:150px">
+            </div>
+            <div class="details-column">
+                <p><span>
+                        <h2><u>Eben-Ezer Public School</u></h2>
+                    </span></p>
+                <p>10th class from Eben-Ezer Public School, 2018 with
+                    87.04 percentage.</p><br>
+            </div>
+        </div>
+
+    </section>
+    <section id="experience">
+        <h1 class="headings">EXPERIENCE</h1>
+        <DIV class="row">
+            <div class="box">
+                <img src="logo.png" alt="logo">
+                <h1 class="start"><u>Front-end Development
+                    </u><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Internship</u></h1>
+                <p class="info">Front-end web development is the process of designing and building the graphical user
+                    interface (GUI) of any website. Sometimes called client-side development, front-end development
+                    refers to the development of the parts of a website the user interacts with, such as buttons and
+                    text boxes.</p>
+            </div>
+        </DIV>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send" id="Send">
+        </form>
+    </section>
+    <center>
+        <a href="https://www.linkedin.com/in/rakshitha-s-967349262" class="fa fa-linkedin"></a>
+
+        <a href="https://instagram.com/_rakshitha_012?igshid=NGExMmI2YTkyZg==" class="fa fa-instagram"></a>
+
+        <a href="https://github.com/Rakshitha012" class="fa fa-github"></a>
+    </center>
+
 </body>
+
+
 
 </html>
